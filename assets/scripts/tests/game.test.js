@@ -30,3 +30,11 @@ describe("game object contains correct keys", () => {
         expect(game.choices).toEqual(['button1', 'button2', 'button3', 'button4']);
     });
 });
+
+describe("newGame works correctly", () => {
+    beforeAll(() => {
+        game.score = 42;
+        newGame();
+    })
+    
+})
